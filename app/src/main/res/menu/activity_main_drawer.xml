@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_imc"
+            android:icon="@drawable/ic_menu_imc"
+            android:title="@string/nav_imc" />
+        <item
+            android:id="@+id/nav_area"
+            android:icon="@drawable/ic_menu_area"
+            android:title="@string/nav_area" />
+        <item
+            android:id="@+id/nav_interes"
+            android:icon="@drawable/ic_menu_interes"
+            android:title="@string/nav_interes" />
+    </group>
+</menu>

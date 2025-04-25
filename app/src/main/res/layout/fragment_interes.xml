@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".InteresFragment">
+
+    <EditText
+        android:id="@+id/etCapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Capital inicial"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etTasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tasa de interés anual (%)"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etTiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiempo (años)"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnCalcularInteres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Calcular Interés"/>
+
+    <TextView
+        android:id="@+id/tvResultadoInteres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"/>
+</LinearLayout>
